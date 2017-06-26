@@ -1,0 +1,20 @@
+{
+    "name": "bfabiszewski/ulogger-server",
+    "description": "μlogger • web viewer for tracks uploaded with μlogger mobile client",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Bartek Fabiszewski",
+            "email": "bartek@fabiszewski.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.7.x-dev",
+        "vlucas/phpdotenv": "^2.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}

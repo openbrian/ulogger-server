@@ -39,6 +39,11 @@ Together with a dedicated [μlogger mobile client](https://github.com/bfabiszews
 - **Remember to remove or disable `scripts/setup.php` script**
 - Log in with your new user on http://YOUR_HOST/ulogger-server/
 
+## Develop
+- Install Composer (http://getcomposer.org)
+- composer install
+- Run unit test ./vendor/bin/phpunit
+
 ## Todo
 - improve track editing
 - track display filters (accurracy, provider)
